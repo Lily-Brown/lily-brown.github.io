@@ -1,0 +1,33 @@
+body {
+	text-align: center;
+	background: url("http://wallpapercave.com/wp/imOkKhc.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: stretch;
+	color: black;
+	font-family: arial;	
+}
+
+.container {
+	top: 10vh;
+	background-color: white;
+	border-radius: 20px;
+}
+
+.row {
+	padding: 2%;
+}
+
+img {
+	border-radius: 10px;
+}
+
+ul {
+	text-align: left;
+	padding: 2%;
+}
+
+h1 {
+	font-family: 'Fjalla One', sans-serif;
+}
+
