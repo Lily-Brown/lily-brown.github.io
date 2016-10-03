@@ -1,85 +1,115 @@
 body {
-	background-image: url("images/desert-background.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	font-family: 'Bungee', cursive;
-}
-
-#wrapper {
-	font-size:0px;
-	position:relative;
+	font-family: 'Baloo Bhaina', cursive;
+	text-align: center;
 }
 
 h1 {
-	position: absolute;
-	left: 32%;
-	font-size: 60px;
-	color: #D87341;
-	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-}
-h2 {
-	position: absolute;
-	left: 40%;
-	top:15vh;
-	text-align: center;
-}	
-
-#player1, #player2, #oneScore, #twoScore, #winner, button, #highScores {
-	position:absolute;
+	font-family: 'Baloo Bhaina', cursive;
 }
 
-#oneScore, #twoScore, h2, #highScores {
-	color: white;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-	font-size: 16px;
-
-}
-#oneScore {
-	left: 5%;
-	top:5vh;
-}
-#twoScore {
-	right: 5%;
-	top:5vh;
+.headbox {
+	width:100%;
+	display:inline-block;
 }
 
-#highScores {
-	left: 6%;
-	top:15vh;
-	color:#85CF26;
-	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;	
-}
-
-#player1 {	
-	top:55vh;
-	background-image: url("images/chicken1.png");
-	width: 100px;
-	height: 100px;
-	background-size: 100px 100px;
-}
-#player2 {
-	top:70vh;
-	background-image: url("images/chicken2.png");
-	width: 150px;
-	height: 150px;
-	background-size: 150px 150px;
-}
-#winner {
-	top:35vh;
-	left: 23%;
-	font-size: 40px;
-	padding: 10px;
-	color:#85CF26;
-	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;	
-	text-align: center;
-}
-
-button {
-	top:27.5vh;
-	left: 47.5%;
-	color: #D87341;
-	font-family: 'Bungee', cursive;
-	font-size:16px;
+.box {
+	border: 2px solid black;
+	height:10vh;
+	width:10%;
+	margin:1%;
+	display:inline-block;
 	background-color:white;
-	border-color: #85CF26;
+	border-radius:50%;
+}
+
+.purple, .blue, .playerTurn, #playerOne, #playerTwo {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	position:relative;
+}
+.purple {
+	background-image: url("images/purple.png");	
+}
+
+.blue {
+	background-image: url("images/blue.png");
+}
+
+#wrapper {
+	text-align: center;
+	border: 2px solid black;
+	border-radius:20px;
+	background-image: url('images/background.png');
+}
+
+
+#resetButton {
+	border: 2px solid black;
+	border-radius:5px;
+	font-family: 'Baloo Bhaina', cursive;
+	font-size:14px;
+}
+
+#resetButton:hover {
+	background-color: #e58585;
+	color: white;
+}
+
+#resetButton:active {
+	background-color: #e58585;
+	color: white;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+#title, h1, #resetButton {
+	display:inline;
+}
+
+#purpleText {
+	color:#9f62b2;
+}
+
+#blueText {
+	color:#748cc3;
+}
+
+#ponyLeft, #ponyRight, #player1, #player2  {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+#ponyLeft {
+	height: 300px;
+	background-image: url("images/twilight-sparkle.png");
+}
+
+#ponyRight {
+	height: 300px;
+	background-image: url("images/princess-luna.png");
+}
+
+.playerTurn {
+	border: 6px solid #e58585;
+	border-radius:50%;
+	padding: 10%;
+}
+
+.hideBorder {
+	border: 6px solid white;
+	border-radius:50%;
+	padding: 10%;
+}
+
+#player1 {
+	height: 15vh;
+	padding: 10%;
+	background-image: url("images/purple.png");
+}
+
+#player2 {
+	height: 15vh;
+	padding: 10%;
+	background-image: url("images/blue.png");
 }
