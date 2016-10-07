@@ -1,0 +1,55 @@
+/*div {
+  border: 2px solid green;
+}
+*/
+body {
+  height: 100%;
+  background-color: #f2f2f2;
+  font-size: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 100;
+  line-height: 2em;
+  color: #8e8e8e;
+}
+
+.portfolio {
+  text-align: center;
+  background-image: url("../images/sf-background-bw.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.welcome {
+  background-image: url("../images/background-bw.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  min-height: 60vh;
+}
+ 
+.welcome h1 {
+  text-transform: uppercase;
+  padding-top: 15vh;
+  font-weight: bold;
+}
+
+.welcome h1, h3, .portfolio {
+  color: white;
+}
+
+.about p, .portfolio p {
+  font-size: 20px;
+  margin: 2% auto;
+}
+
+.portfolio img, p {
+  text-align: center;
+  width: 80%;
+}
+
+.project-row{
+  padding: 10%;
+}
