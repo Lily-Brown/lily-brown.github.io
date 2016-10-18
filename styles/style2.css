@@ -2,6 +2,15 @@
   border: 2px solid green;
 }
 */
+
+/*max-width ==> scales down if screen resizes*/
+
+/*.slide {
+  background-color: black;
+  width: 80%;
+  margin: 0 auto;
+}*/
+
 body {
   height: 100%;
   background-color: #f2f2f2;
@@ -19,6 +28,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
+  color: #72328D;
 }
 
 .welcome {
@@ -46,10 +56,29 @@ body {
 }
 
 .portfolio img, p {
-  text-align: center;
+  text-align: left;
   width: 80%;
+}
+
+.portfolio a {
+  text-decoration: none;
+  color: white;
 }
 
 .project-row{
   padding: 10%;
+}
+
+.project p {
+  background-color: #3F3D3F;
+  padding: 2%;
+}
+
+@media only screen and (max-width: 500px) {
+  .portfolio {
+    background-image: url("../images/mobile-sf-background-bw.png");
+    background-size: contain;
+  }
+  
+
 }
