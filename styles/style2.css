@@ -50,6 +50,11 @@ body {
   color: white;
 }
 
+.welcome img {
+  height: 30px;
+  padding: 2%;
+}
+
 .about p, .portfolio p {
   font-size: 20px;
   margin: 2% auto;
@@ -58,6 +63,8 @@ body {
 .portfolio img, p {
   text-align: left;
   width: 80%;
+  border-radius: 5px;
+  color: #3F3D3F; 
 }
 
 .portfolio a {
@@ -70,8 +77,9 @@ body {
 }
 
 .project p {
-  background-color: #3F3D3F;
-  padding: 2%;
+  /*background-color: #3F3D3F;*/
+  background-color: white;
+  /*padding: 2%;*/
 }
 
 @media only screen and (max-width: 500px) {
