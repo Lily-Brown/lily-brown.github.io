@@ -1,45 +1,141 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Lily Cole</title>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <title>Lily Cole - Web Developer</title>
 
     <!-- STYLESHEETS -->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet'>
+    <link rel='stylesheet' href='styles/style2.css'>
 
-</head>
+    <!-- VENDOR SCRIPTS -->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js'></script>
+
+    <!-- APPLICATION SCRIPTS -->
+    <!-- <script src='/scripts/app.js'></script> -->
+  </head>
 <body>
+<div class='container-fluid'>
 
-  <div class="container">
+  <!-- WELCOME -->
+  <div class='section welcome row'>
+    <div class='four columns offset-by-eight'>
+      <h1>Lily Cole</h1>
+      <h3>Web Developer</h3>
+      <a href='https://www.instagram.com/likethestars/'><img src='images/instagram_icon_white.png'></a>
+      <a href='https://github.com/LilyCole/'><img src='images/github_icon2_white.png'></a>
+      <a href='https://www.linkedin.com/in/liliacole'><img src='images/linkedin_icon_white.png'></a>
+    </div>
+  </div>
 
-    <div class="row">
-      <div class="twelve columns">
-        <h1>Lily's GA Pages</h1>
+  <!-- ABOUT -->
+  <div class='section about row'>
+    <div class='twelve columns'>
+      <p class='bio'>My name is <strong>Lily Cole</strong>. I am a <strong>web developer</strong> and <strong>explorer</strong>. I love cross-words, jigsaw puzzles, scavengers hunts, walking (a <strong>lot</strong> of walking), being outside and meeting new people. An avid traveler and proficient mover, I'm adaptable and scrappy. Yeah, you read that right -- scrappy. I also love eating and cooking, so get ready to compare lunches.</p>
+    </div>
+  </div>
+
+  <!-- PORTFOLIO -->
+  <div class='section portfolio row'>
+    <div class='slide'>
+    <div class='row'>
+      <div class='project-row'>
+        <div class='one-third column'>
+          <div class='inner project'>  
+            <a href='https://lilycole.github.io/project!0/chicken-run.html'>
+            <img src='images/chicken-run.png'>
+            <div class='hover'>
+              </br>
+              <p><strong>CHICKEN RUN</strong></p>
+              </br>
+              <span>
+                First GA project. Racer game operated by keyboard input. JS DOM manipulation.</br></br>
+                <strong>TECHNOLOGIES:</strong> JavaScript, CSS.
+              </span>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div class='one-third column'>
+          <div class='inner project'>
+            <a href='https://lilycole.github.io/project00/connect-four.html'>
+            <img src='images/connect-four.png'>
+            <div class='hover'>
+              </br>
+              <p><strong>CONNECT FOUR</strong></p>
+              </br>
+              <span>
+                Object Oriented Game Project. DOM Manipulation. Game styling with CSS.</br></br>
+                <strong>TECHNOLOGIES:</strong> JavaScript, Skeleton CSS Framework.
+              </span>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div class='one-third column'>
+          <div class='inner project'>
+            <a href='https://warm-plains-40549.herokuapp.com/'>
+            <img src='images/personal-api.png'>
+            <div class='hover'>
+              </br>
+              <p><strong>PERSONAL API</strong></p>
+              </br>
+              <span>
+                Express App. Seamless CRUD actions using AJAX & JQuery.</br></br>
+                <strong>TECHNOLOGIES:</strong> AJAX, JQuery, Skeleton CSS, Express Node.
+              </span>
+            </div>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="row">
-      <div class="twelve columns">
-        <p>
-          <img src="http://weknowyourdreams.com/images/bear/bear-05.jpg" height="100px"><br>
-          This is bare bones right now but bear with me.
-          </p>
+    <div class='row'>
+      <div class='project-row'>
+        <div class='one-third column'>
+          <div class='inner project'>  
+            <a href='http://city-hyke.herokuapp.com/'>
+            <div class='portfolio_img'><img src='images/city-hyke.png'></div>
+            <div class='hover'>
+              </br>
+              <p><strong>CITY HYKE</strong></p>
+              </br>
+              <span>
+                MEN Stack project using a Google APIs to dynamically draw tour routes. CRUD from MongoDB.</br></br>
+                <strong>TECHNOLOGIES:</strong> MongoDB, Mongoose, Express, Node, Google Maps/Places API.
+              </span>
+            </div>
+            </a>
+          </div>
+        </div>
+
+        <div class='one-third column'>
+          <div class='inner project'>
+          </div>
+        </div>
+
+        <div class='one-third column'>
+          <div class='inner project'>
+          </div>
+
+        </div>
       </div>
     </div>
-    
 
-    <div class="row">
-      <div class="twelve columns">    
-    <ul>
-      <li><a href="/project!0/chicken-run.html">Chicken Run!</a> Project -1 - Racer Game</li>
-      <li><a href="/project00/connect-four.html">Connect Four</a> Project 00 - In-Browser OO Game</li>
-      <li><a href="https://warm-plains-40549.herokuapp.com/">Personal API</a> Project 01 - First CRUD-able Application</li>
-    </ul>
-      </div>
-    </div>
 
-  </div> <!-- END CONTAINER DIV -->
+  </div>
+
+  <!-- INSTAGRAM -->
+  <!-- <section class='section instagram' id='section3'>
+    <div id='instafeed'></div>
+  </section> -->
+
+</div> <!-- END CONTAINER -->
 
 </body>
 </html>

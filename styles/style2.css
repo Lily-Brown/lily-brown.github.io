@@ -5,10 +5,8 @@
 
 /*max-width ==> scales down if screen resizes*/
 
-/*.slide {
-  background-color: black;
-  width: 80%;
-  margin: 0 auto;
+/*div {
+  border: 1px solid green;
 }*/
 
 body {
@@ -21,6 +19,9 @@ body {
   color: #8e8e8e;
 }
 
+.bio {
+  padding: 2%;
+}
 .portfolio {
   text-align: center;
   background-image: url("../images/sf-background-bw.png");
@@ -52,6 +53,7 @@ body {
 
 .welcome img {
   height: 30px;
+  width: 30px;
   padding: 2%;
 }
 
@@ -60,11 +62,11 @@ body {
   margin: 2% auto;
 }
 
-.portfolio img, p {
+.portfolio img {
   text-align: left;
   width: 80%;
   border-radius: 5px;
-  color: #3F3D3F; 
+  color: #8e8e8e; 
 }
 
 .portfolio a {
@@ -76,10 +78,30 @@ body {
   padding: 10%;
 }
 
-.project p {
-  /*background-color: #3F3D3F;*/
+.hover {
   background-color: white;
-  /*padding: 2%;*/
+  color: #8e8e8e; 
+  display: none;
+  height: 100%;
+  border-radius: 2px;
+  font-size: 20px;
+}
+
+.project {
+  position: relative;
+}
+
+.project:hover .hover{
+  display: block;
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+}
+
+.slide {
+  padding-bottom: 5%;
 }
 
 @media only screen and (max-width: 500px) {
@@ -88,5 +110,4 @@ body {
     background-size: contain;
   }
   
-
 }
