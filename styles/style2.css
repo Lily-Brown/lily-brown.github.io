@@ -67,6 +67,7 @@ body {
   width: 80%;
   border-radius: 5px;
   color: #8e8e8e; 
+  /*min-width: 200px;*/
 }
 
 .portfolio a {
