@@ -51,9 +51,9 @@ body {
   color: white;
 }
 
-.welcome img {
+.welcome img, .hover img{
   height: 30px;
-  width: 30px;
+  max-width: 30px;
   padding: 2%;
 }
 
