@@ -1,0 +1,133 @@
+
+body {
+  height: 100%;
+  background-color: #f2f2f2;
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  /*font-weight: 10000;*/
+  /*line-height: 2em;*/
+  color: #8e8e8e;
+}
+
+/* CONTAINERS AND DIVS */
+
+.one-third-column {
+	width: 28%;
+	display: inline-block;
+	padding: 2%;
+}
+
+/* WELCOME SECTION */
+
+.welcome {
+  background-image: url("../images/background-bw.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  min-height: 60vh;
+}
+
+.welcome h1 {
+  text-transform: uppercase;
+  padding-top: 15vh;
+  font-weight: bold;
+}
+
+.welcome h1, h3, .portfolio {
+  color: white;
+}
+
+.welcome img, .hover img{
+  max-height: 30px;
+  padding: 2%;
+}
+
+.welcome-title {
+	padding-left: 75%;
+}
+
+/* ABOUT SECTION */
+.bio {
+  padding: 2%;
+}
+
+/* PORTFOLIO SECTION */
+
+.hover {
+  background-color: white;
+  color: #8e8e8e; 
+  display: none;
+  min-width: 240px;
+  max-width: 270px;
+  border-radius: 2px;
+  font-size: 16px;
+}
+
+.portfolio {
+  text-align: center;
+  background-image: url("../images/sf-background-bw.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: #72328D;
+  padding: 2%;
+}
+
+.project-img img {
+  width: 100%;
+  min-width: 240px;
+  max-width: 270px;
+  border-radius: 5px;
+}
+
+.project {
+  position: relative;
+  /*border: 1px solid magenta;*/
+}
+
+.project:hover .hover{
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  max-height: 270px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid #44484D;
+  border-radius: 2px
+}
+
+.links img {
+	max-height: 30px;
+	max-width: 30px
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 800px) {
+  .project {
+  	width: 80%;
+  }
+
+	.project:hover .hover {
+		max-width: 300px;
+		max-height: 300px;
+	}
+
+  .project-img img {
+  	max-width: 300px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+	.welcome-title {
+  padding: 20px;
+	}
+
+	.project:hover .hover {
+		width: 100%;
+	}
+}
