@@ -7,139 +7,114 @@
     <title>Lily Cole - Web Developer</title>
 
     <!-- STYLESHEETS -->
-    <link rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet'>
-    <link rel='stylesheet' href='styles/style2.css'>
+    <link rel='stylesheet' href='styles/style.css'>
 
-    <!-- VENDOR SCRIPTS -->
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
-    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js'></script>
-
-    <!-- APPLICATION SCRIPTS -->
-    <!-- <script src='/scripts/app.js'></script> -->
   </head>
 <body>
 <div class='container-fluid'>
 
   <!-- WELCOME -->
   <div class='section welcome row'>
-    <div class='four columns offset-by-eight'>
+    <!-- <div class='four columns offset-by-eight'> -->
+    <div class='welcome-title'>
       <h1>Lily Cole</h1>
       <h3>Web Developer</h3>
       <a href='https://www.instagram.com/likethestars/'><img src='images/instagram_icon_white.png'></a>
       <a href='https://github.com/LilyCole/'><img src='images/github_icon2_white.png'></a>
       <a href='https://www.linkedin.com/in/liliacole'><img src='images/linkedin_icon_white.png'></a>
     </div>
-  </div>
+  </div> <!-- END WELCOME -->
 
   <!-- ABOUT -->
   <div class='section about row'>
     <div class='twelve columns'>
       <p class='bio'>My name is <strong>Lily Cole</strong>. I am a <strong>web developer</strong> and <strong>explorer</strong>. I love crosswords, jigsaw puzzles, scavengers hunts, walking (a <strong>lot</strong> of walking), being outside and meeting new people. An avid traveler and proficient mover, I'm adaptable and scrappy. Yeah, you read that right -- scrappy. I also love eating and cooking, so get ready to compare lunches.</p>
     </div>
-  </div>
+  </div> <!-- END ABOUT -->
 
   <!-- PORTFOLIO -->
   <div class='section portfolio row'>
-    <div class='slide'>
-    <div class='row'>
-      <div class='project-row'>
-        <div class='one-third column'>
-          <div class='inner project'>  
-            <!-- <a href='https://lilycole.github.io/project!0/chicken-run.html'> -->
-            <img src='images/chicken-run.png'>
-            <div class='hover'>
-              </br>
-              <p><strong>CHICKEN RUN</strong></p>
-              <span>
-                First GA project. Racer game operated by keyboard input. DOM manipulation using vanilla JS.</br></br>
-                <strong>TECHNOLOGIES:</strong> JavaScript, CSS.
-              </span>
-              <p>
-                <a href='https://github.com/LilyCole/js-racer'><img class='icon' src='images/github_icon_gray.png'></a>
-                <a href='https://lilycole.github.io/project!0/chicken-run.html'><img src='images/link_icon_gray.png'></a>
-              </p>
-            </div>
-            <!-- </a> -->
-          </div>
-        </div>
-        <div class='one-third column'>
-          <div class='inner project'>
-            <!-- <a href='https://lilycole.github.io/project00/connect-four.html'> -->
-            <img src='images/connect-four.png'>
-            <div class='hover'>
-              </br>
-              <p><strong>CONNECT FOUR</strong></p>
-              <span>
-                Object Oriented Game Project. DOM Manipulation. Game styling with CSS.</br></br>
-                <strong>TECHNOLOGIES:</strong> JavaScript, JQuery, Skeleton CSS Framework.
-              </span>
-              <p>
-                <a href='https://github.com/LilyCole/project-00'><img class='icon' src='images/github_icon_gray.png'></a>
-                <a href='https://lilycole.github.io/project00/connect-four.html'><img src='images/link_icon_gray.png'></a>
-              </p>
-            </div>
-            <!-- </a> -->
-          </div>
-        </div>
-        <div class='one-third column'>
-          <div class='inner project'>
-            <!-- <a href='https://warm-plains-40549.herokuapp.com/'> -->
-            <img src='images/personal-api.png'>
-            <div class='hover'>
-              <p><strong>PERSONAL API</strong></p>
-              </br>
-              <span>
-                Express App. Seamless CRUD actions using AJAX & JQuery.</br></br>
-                <strong>TECHNOLOGIES:</strong> AJAX, JQuery, Handlebars, Skeleton CSS, Express Node, MongoDB.
-              </span>
-              <p>
-                <a href='https://github.com/LilyCole/express-personal-api'><img class='icon' src='images/github_icon_gray.png'></a>
-                <a href='https://warm-plains-40549.herokuapp.com/'><img src='images/link_icon_gray.png'></a>
-              </p>
-            </div>
-            <!-- </a> -->
-          </div>
+
+    <!-- FIRST PROJECT ROW -->
+    <div class= 'row'>
+
+      <div class='one-third-column project'>
+        <div class='project-img'><img src='images/chicken-run.png'></div>
+        <div class='hover'>
+          <p><strong>CHICKEN RUN</strong></p>
+          <span>
+            First GA project. Racer game triggereed by keyboard input. DOM manipulation using vanilla JS.</br></br>
+            <strong>TECHNOLOGIES:</strong> JavaScript, CSS.
+          </span>
+          <p>
+            <a href='https://github.com/LilyCole/js-racer'><img class='icon' src='images/github_icon_gray.png'></a>
+            <a href='https://lilycole.github.io/project!0/chicken-run.html'><img src='images/link_icon_gray.png'></a>
+          </p>
         </div>
       </div>
-    </div>
 
-    <div class='row'>
-      <div class='project-row'>
-        <div class='one-third column'>
-          <div class='inner project'>  
-            <!-- <a href='http://city-hyke.herokuapp.com/'> -->
-            <div class='portfolio_img'><img src='images/city-hyke.png'></div>
-            <div class='hover'>
-              <p><strong>CITY HYKE</strong></p>
-              <span>
-                MEN stack project using Google APIs to draw tour routes. CRUD w/MongoDB.</br></br>
-                <strong>TECHNOLOGIES:</strong> MongoDB, Mongoose, Express Node, AJAX, EJS, Google Maps/Places API.
-              </span>
-              <p>
-                <a href='https://github.com/teddycoleman/walkingtours'><img class='icon' src='images/github_icon_gray.png'></a>
-                <a href='http://city-hyke.herokuapp.com/'><img src='images/link_icon_gray.png'></a>
-              </p>
-            </div>
-            <!-- </a> -->
-          </div>
-        </div>
-
-        <div class='one-third column'>
-          <div class='inner project'>
-          </div>
-        </div>
-
-        <div class='one-third column'>
-          <div class='inner project'>
-          </div>
-
+      <div class='one-third-column project'>
+        <div class='project-img'><img src='images/connect-four.png'></div>
+        <div class='hover'>
+          <p><strong>CONNECT FOUR</strong></p>
+          <span>
+            Object Oriented Game Project. DOM Manipulation with JQuery. Game styling with CSS.</br></br>
+            <strong>TECHNOLOGIES:</strong> JavaScript, JQuery, Skeleton CSS Framework.
+          </span>
+          <p>
+            <a href='https://github.com/LilyCole/project-00'><img class='icon' src='images/github_icon_gray.png'></a>
+            <a href='https://lilycole.github.io/project00/connect-four.html'><img src='images/link_icon_gray.png'></a>
+          </p>
         </div>
       </div>
-    </div>
+
+      <div class='one-third-column project'>
+        <div class='project-img'><img src='images/personal-api.png'></div>
+        <div class='hover'>
+          <p><strong>PERSONAL API</strong></p>
+          <span>
+            Express Node One-Page App. Seamless CRUD actions using AJAX & JQuery.</br></br>
+            <strong>TECHNOLOGIES:</strong> AJAX, JQuery, Handlebars, Skeleton CSS, Express Node, MongoDB.
+          </span>
+          <p>
+            <a href='https://github.com/LilyCole/express-personal-api'><img class='icon' src='images/github_icon_gray.png'></a>
+            <a href='https://warm-plains-40549.herokuapp.com/'><img src='images/link_icon_gray.png'></a>
+          </p>
+        </div>
+      </div>
+
+    </div> <!-- END FIRST PROJECT ROW -->
+
+    <!-- SECOND PROJECT ROW -->
+    <div class='row'>
+
+      <div class='one-third-column project'>
+        <div class='project-img'><img src='images/city-hyke.png'></div>
+        <div class='hover'>
+          <p><strong>CITY HYKE</strong></p>
+          <span>
+            MEN stack project using Google APIs to dynamically draw tour routes. Dynamic CRUD actions with MongoDB backend. Page templating with EJS.</br></br>
+            <strong>TECHNOLOGIES:</strong> MongoDB, Mongoose, Express Node, AJAX, EJS, Google Maps/Places API.
+          </span>
+          <p>
+            <a href='https://github.com/teddycoleman/walkingtours'><img class='icon' src='images/github_icon_gray.png'></a>
+            <a href='http://city-hyke.herokuapp.com/'><img src='images/link_icon_gray.png'></a>
+          </p>
+        </div>
+      </div>
+      
+
+      <div class='one-third-column project'>
+      </div>
+
+      <div class='one-third-column project'>
+      </div>
+
+    </div> <!-- END FIRST PROJECT ROW -->
 
 
-  </div>
+  </div> <!-- END PORTFOLIO -->
 
   <!-- INSTAGRAM -->
   <!-- <section class='section instagram' id='section3'>
