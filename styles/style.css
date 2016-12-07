@@ -53,14 +53,6 @@ nav ul li:hover {
   background: lightgray;
 }
 
-@media screen and (max-width:680px) {
-  nav ul li {
-    display: inline;
-    padding: 0 1em;
-    float: left;
-  }
-}
-
 /* CONTAINERS AND DIVS */
 
 .one-third-column {
@@ -200,4 +192,16 @@ nav ul li:hover {
 	.project:hover .hover {
 		width: 100%;
 	}
+
+  .bio{
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width:680px) {
+  nav ul li {
+    display: inline;
+    padding: 0 1em;
+    float: left;
+  }
 }
