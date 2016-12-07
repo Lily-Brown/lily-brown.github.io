@@ -1,12 +1,56 @@
 
 body {
   height: 100%;
-  background-color: #f2f2f2;
+  background-color: white;
   font-size: 20px;
   font-family: 'Source Sans Pro', sans-serif;
-  /*font-weight: 10000;*/
-  /*line-height: 2em;*/
   color: #8e8e8e;
+}
+
+
+/* HEADER AND NAVIGATION */
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -60px;
+    visibility: hidden;
+}
+
+header a {
+  color: gray;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-nav {
+  background: #fff;
+  height: 60px;
+  z-index: 150;
+  margin-bottom: -80px;
+  box-shadow: 0 2px 3px rgba(0,0,0,.4);
+    position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+nav ul {
+  text-align: center;
+  margin: 0;
+}
+
+nav ul li {
+ display: inline-block;
+ padding: 0 3em;
+ line-height: 3em;
+}
+
+nav ul li:hover {
+  background: lightgray;
 }
 
 /* CONTAINERS AND DIVS */
@@ -26,6 +70,7 @@ body {
   background-attachment: fixed;
   background-size: 100% 100%;
   min-height: 60vh;
+  position: relative;
 }
 
 .welcome h1 {
@@ -38,7 +83,7 @@ body {
   color: white;
 }
 
-.welcome img, .hover img{
+.welcome img, .hover img, .contact img{
 	max-height: 30px;
 	max-width: 30px;
 	padding: 2%;
@@ -96,7 +141,6 @@ body {
 
 .project {
   position: relative;
-  /*border: 1px solid magenta;*/
 }
 
 .project:hover .hover{
@@ -110,6 +154,14 @@ body {
   transform: translate(-50%, -50%);
   border: 5px solid #44484D;
   border-radius: 2px;
+}
+
+/* ABOUT SECTION */
+.contact {
+  text-align: center;
+  vertical-align: center;
+  color: white;
+  background-color: gray;
 }
 
 /* MEDIA QUERIES */
