@@ -61,6 +61,12 @@ nav ul li:hover {
 	padding: 2%;
 }
 
+.two-third-columns {
+  width: 45%;
+  display: inline-block;
+  padding: 2%;
+}
+
 /* WELCOME SECTION */
 
 .welcome {
@@ -83,12 +89,11 @@ nav ul li:hover {
   color: white;
 }
 
-.welcome img, .hover img, .contact img{
+.welcome img, .project-info img, .contact img{
 	max-height: 30px;
 	max-width: 30px;
 	padding: 2%;
 }
-
 
 .link_icon {
 	max-height: 30px;
@@ -100,6 +105,7 @@ nav ul li:hover {
 .link_icon:hover {
 	background-color: lightgray;
 }
+
 .welcome-title {
 	padding-left: 75%;
 }
@@ -128,11 +134,73 @@ nav ul li:hover {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
-  color: #72328D;
+  color: gray;
   padding: 2%;
 }
 
 .project-img img {
+  width: 100%;
+  margin: 0 auto;
+  /*min-width: 240px;
+  max-width: 270px;
+  border-radius: 5px;*/
+}
+
+.project-info {
+  padding: 1%;
+  padding-bottom: 3%;
+}
+
+.project-title {
+  font-size: 3em;
+}
+
+.project-summary {
+  font-size: 2em;
+  font-style: italic;
+}
+
+.project-section {
+  width: 28%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  padding: 1%;
+  font-size: 0.75em;
+}
+
+.section-header {
+  font-size: 1.5em !important;
+  text-align: center;
+  font-weight: bold;
+}
+
+.project-link  {
+  vertical-align: center;
+  padding-top: 1%;
+  padding: 2%;
+}
+
+.project-link:hover {
+  background-color: lightgray;
+}
+
+.link-section {
+  display: inline-block;
+  height: 30px;
+  vertical-align: middle;
+}
+
+.link-text {
+  vertical-align: center;
+  padding-top: 3%;
+}
+
+.link-text a {
+  text-decoration: none;
+  color: gray;
+}
+/*.project-img img {
   width: 100%;
   min-width: 240px;
   max-width: 270px;
@@ -154,6 +222,12 @@ nav ul li:hover {
   transform: translate(-50%, -50%);
   border: 5px solid #44484D;
   border-radius: 2px;
+}*/
+
+.project {
+  background-color: white;
+  width: 85%;
+  margin: 2% auto;
 }
 
 /* ABOUT SECTION */
@@ -176,9 +250,10 @@ nav ul li:hover {
 		max-height: 300px;
 	}
 
-  .project-img img {
+/*  .project-img img {
   	max-width: 300px;
-  }
+  }*/
+
 }
 
 @media only screen and (max-width: 500px) {
