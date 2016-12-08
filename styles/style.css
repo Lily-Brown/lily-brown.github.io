@@ -245,14 +245,27 @@ nav ul li:hover {
   	width: 80%;
   }
 
-	.project:hover .hover {
+/*	.project:hover .hover {
 		max-width: 300px;
 		max-height: 300px;
-	}
+	}*/
 
 /*  .project-img img {
   	max-width: 300px;
   }*/
+
+  .project-section {
+    padding-top: 5%;
+    width: 95%;
+  }
+
+  .project-title {
+    font-size: 2em;
+  }
+
+  .project-summary {
+    font-size: 1.5em;
+  }
 
 }
 
@@ -264,9 +277,9 @@ nav ul li:hover {
 	.welcome h1, h3 {
 	}
 
-	.project:hover .hover {
-		width: 100%;
-	}
+/*  .project-section {
+    width: 100%;
+  }*/
 
   .bio{
     text-align: justify;
