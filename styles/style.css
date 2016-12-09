@@ -17,7 +17,7 @@ a.anchor {
     visibility: hidden;
 }
 
-header a {
+header a, .bio a{
   color: gray;
   text-decoration: none;
 }
@@ -49,16 +49,16 @@ nav ul li {
  line-height: 3em;
 }
 
-nav ul li:hover {
+nav ul li:hover, .bio a:hover{
   background: lightgray;
 }
 
 /* CONTAINERS AND DIVS */
 
 .one-third-column {
-	width: 28%;
-	display: inline-block;
-	padding: 2%;
+  width: 28%;
+  display: inline-block;
+  padding: 2%;
 }
 
 .two-third-columns {
@@ -90,24 +90,24 @@ nav ul li:hover {
 }
 
 .welcome img, .project-info img, .contact img{
-	max-height: 30px;
-	max-width: 30px;
-	padding: 2%;
+  max-height: 30px;
+  max-width: 30px;
+  padding: 2%;
 }
 
 .link_icon {
-	max-height: 30px;
-	max-width: 30px;
-	padding: 2%;
-	display: inline-block;
+  max-height: 30px;
+  max-width: 30px;
+  padding: 2%;
+  display: inline-block;
 }
 
 .link_icon:hover {
-	background-color: lightgray;
+  background-color: lightgray;
 }
 
 .welcome-title {
-	padding-left: 75%;
+  padding-left: 75%;
 }
 
 /* ABOUT SECTION */
@@ -243,16 +243,16 @@ nav ul li:hover {
 
 @media only screen and (max-width: 800px) {
   .project {
-  	width: 80%;
+    width: 80%;
   }
 
-/*	.project:hover .hover {
-		max-width: 300px;
-		max-height: 300px;
-	}*/
+/*  .project:hover .hover {
+    max-width: 300px;
+    max-height: 300px;
+  }*/
 
 /*  .project-img img {
-  	max-width: 300px;
+    max-width: 300px;
   }*/
 
   .project-section {
@@ -271,12 +271,12 @@ nav ul li:hover {
 }
 
 @media only screen and (max-width: 500px) {
-	.welcome-title {
-  	padding-left: 55%;
-	}
+  .welcome-title {
+    padding-left: 55%;
+  }
 
-	.welcome h1, h3 {
-	}
+  .welcome h1, h3 {
+  }
 
 /*  .project-section {
     width: 100%;
