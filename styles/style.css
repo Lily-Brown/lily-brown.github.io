@@ -102,6 +102,10 @@ nav ul li:hover, .bio a:hover{
   display: inline-block;
 }
 
+.link_icon img{
+  border-radius: 5px;
+}
+
 .link_icon:hover {
   background-color: lightgray;
 }
