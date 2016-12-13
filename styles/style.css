@@ -13,11 +13,11 @@ body {
 a.anchor {
     display: block;
     position: relative;
-    top: -60px;
+    top: -50px;
     visibility: hidden;
 }
 
-header a, .bio a{
+header a, .bio a {
   color: gray;
   text-decoration: none;
 }
@@ -29,7 +29,7 @@ header a:hover {
 
 .main-nav {
   background: #fff;
-  height: 60px;
+  height: 50px;
   z-index: 150;
   margin-bottom: -80px;
   box-shadow: 0 2px 3px rgba(0,0,0,.4);
@@ -45,8 +45,8 @@ nav ul {
 
 nav ul li {
  display: inline-block;
- padding: 0 3em;
- line-height: 3em;
+ padding: 0 2em;
+ line-height: 2.5em;
 }
 
 nav ul li:hover, .bio a:hover{
@@ -116,7 +116,7 @@ nav ul li:hover, .bio a:hover{
 
 /* ABOUT SECTION */
 .bio {
-  padding: 2%;
+  padding: 2% 5%;
 }
 
 /* PORTFOLIO SECTION */
@@ -139,34 +139,30 @@ nav ul li:hover, .bio a:hover{
   background-attachment: fixed;
   background-size: 100% 100%;
   color: gray;
-  padding: 2%;
+  padding: 1%;
 }
 
 .project-img img {
   width: 100%;
   margin: 0 auto;
-  /*min-width: 240px;
-  max-width: 270px;
-  border-radius: 5px;*/
 }
 
 .project-info {
   padding: 1%;
-  padding-bottom: 3%;
 }
 
 .project-title {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 .project-summary {
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-style: italic;
   padding-bottom: 2%;
 }
 
 .project-section {
-  width: 28%;
+  width: 30%;
   display: inline-block;
   text-align: left;
   vertical-align: top;
@@ -279,14 +275,7 @@ nav ul li:hover, .bio a:hover{
     padding-left: 55%;
   }
 
-  .welcome h1, h3 {
-  }
-
-/*  .project-section {
-    width: 100%;
-  }*/
-
-  .bio{
+  .bio {
     text-align: justify;
   }
 }
@@ -294,7 +283,6 @@ nav ul li:hover, .bio a:hover{
 @media screen and (max-width:680px) {
   nav ul li {
     display: inline;
-    padding: 0 1em;
-    float: left;
+    padding: 0 .75em;
   }
 }
