@@ -53,6 +53,10 @@ nav ul li:hover, .bio a:hover{
   background: lightgray;
 }
 
+.icon {
+  display: none;
+}
+
 /* CONTAINERS AND DIVS */
 
 .one-third-column {
@@ -350,4 +354,32 @@ nav ul li:hover, .bio a:hover{
     display: inline;
     padding: 0 .75em;
   }
+}
+
+/* RESPONSIVE NAV */
+
+@media screen and (max-width:680px) {
+  
+  .nav-link {
+    display: none;
+  }
+
+  .responsive ul {
+    position: relative;
+  }
+
+  #responsive-nav {
+    background-color: white;
+  }
+
+  .responsive li {
+    display: block;
+    text-align: left;
+  }
+
+  .icon {
+    display: block;
+    text-align: left;
+  }
+
 }

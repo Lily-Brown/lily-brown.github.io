@@ -1,4 +1,5 @@
 
+// Smooth Scroll
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -14,8 +15,19 @@ $(function() {
   });
 });
 
+// Responsive Nav Menu
+function responsiveNav() {
+    var x = $('#responsive-nav');
+    if (x.attr('class')==='top-nav') {
+        x.attr('class','top-nav responsive');
+    } else {
+        x.attr('class','top-nav');
+    }
+}
+
 $(document).ready( function () {
 
+  // Resume Modal
   var modal = $('#myModal');
   var btn = $('#myBtn');
   var span = $(document).find('.close');
