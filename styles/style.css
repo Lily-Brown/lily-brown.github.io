@@ -149,6 +149,7 @@ nav ul li:hover, .bio a:hover{
 .project-img img {
   width: 100%;
   margin: 0 auto;
+  border-bottom: 1px solid gray;
 }
 
 .project-info {
@@ -195,6 +196,10 @@ nav ul li:hover, .bio a:hover{
   display: inline-block;
   height: 30px;
   vertical-align: middle;
+}
+
+.link-section img {
+  border-radius: 5px;
 }
 
 .link-text {
